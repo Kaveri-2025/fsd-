@@ -1,0 +1,50 @@
+/* Background and text color */
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    color: #004080;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #006699;
+    font-size: 28px;
+}
+
+/* Class-based style */
+.intro {
+    font-size: 18px;
+    color: #222;
+    background-color: #e0ffff;
+    padding: 10px;
+    border-left: 5px solid #00cccc;
+}
+
+/* Pseudo-elements */
+h1::after {
+    content: " 🚀";
+}
+
+h2::before {
+    content: "➤ ";
+    color: #00aaff;
+}
+
+/* Pseudo-classes */
+li:hover {
+    background-color: #d0f0ff;
+    cursor: pointer;
+}
+
+p:hover {
+    color: #cc0000;
+}
